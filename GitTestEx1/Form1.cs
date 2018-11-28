@@ -19,7 +19,19 @@ namespace GitTestEx1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //teststsetetest
+        }
+        private void textBox1_KeyUp_1(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {   // 텍스트 박스의 엔터처리
+                MessageBox.Show("ㅅㄷㄴㅅ");
+            }
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
         }
     }
 }
