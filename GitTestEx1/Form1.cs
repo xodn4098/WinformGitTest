@@ -32,6 +32,16 @@ namespace GitTestEx1
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test");
+            // HEAD
+            //
+            //     // 아아아아아앙ㅁ덞러덜
+            // parent of e2f9f78... 버튼 mbox 기능 추가
+            // }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.label2.Text = "TEXT3";
         }
     }
 }
