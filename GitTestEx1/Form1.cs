@@ -34,5 +34,10 @@ namespace GitTestEx1
             MessageBox.Show("Test");
             // 아아아아아앙ㅁ덞러덜
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test3");
+        }
     }
 }
