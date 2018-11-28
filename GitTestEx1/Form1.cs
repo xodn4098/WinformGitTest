@@ -32,7 +32,6 @@ namespace GitTestEx1
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test");
-            // 아아아아아앙ㅁ덞러덜
         }
     }
 }
